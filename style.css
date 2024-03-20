@@ -1,0 +1,361 @@
+* {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 30px;
+  color: #0a3871;
+  line-height: 150%;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+.logo {
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 10%;
+}
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.escrito {
+  /* background-color: red; */
+  width: 50%;
+}
+
+.texto-resuelto {
+  /* background-color: blue; */
+  width: 40%;
+}
+
+.text-area {
+  border: none;
+  color: #0a3871;
+  margin-top: 90px;
+  text-transform: lowercase;
+}
+::placeholder {
+  color: #0a3871;
+}
+.text-area:focus {
+  outline: none;
+}
+
+.mensaje {
+  background: white;
+  background-image: url("imagenes/Muneco.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0a3871;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+
+.mensaje:focus {
+  outline: none;
+}
+
+.botones {
+  display: flex;
+  margin-top: 18px;
+}
+
+.btn-desencriptar {
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+}
+
+.btn-encriptar {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+
+.btn-copiar {
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 108px;
+  margin-top: 402px;
+  position: absolute;
+  width: 336px;
+}
+
+.informacion {
+  color: #495057;
+  font-size: 18px;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+/* rezoluciones */
+@media screen and (max-width: 768px) {
+  * {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    color: #0a3871;
+    line-height: 150%;
+  }
+
+  body {
+    background-color: #f3f5fc;
+  }
+
+  .logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+  }
+
+  main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+
+  .escrito {
+    /* background-color: red; */
+    width: 90%;
+    position: absolute;
+    left: 10%;
+  }
+
+  .texto-resuelto {
+    /* background-color: blue; */
+    width: 90%;
+    position: absolute;
+    top: 69%;
+    left: 10%;
+  }
+
+  .text-area {
+    width: 95%;
+    border: none;
+    color: #0a3871;
+    margin-top: 5%;
+    margin-left: 1%;
+    text-transform: lowercase;
+  }
+  ::placeholder {
+    color: #0a3871;
+  }
+  .text-area:focus {
+    outline: none;
+  }
+
+  .mensaje {
+    width: 90%;
+    background: white;
+    background-image: url("imagenes/Muneco.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: 0%;
+  }
+  .mensaje:focus {
+    outline: none;
+  }
+
+  .botones {
+    /* background-color: orange; */
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    width: 90%;
+  }
+
+  .btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+  }
+
+  .btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+  }
+
+  .btn-copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 5%;
+    margin-top: 402px;
+    position: absolute;
+    top: 1px;
+    width: 88%;
+  }
+
+  .informacion {
+    color: #495057;
+    font-size: 18px;
+    position: absolute;
+    top: 91%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  * {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    color: #0a3871;
+    line-height: 150%;
+  }
+
+  body {
+    background-color: #f3f5fc;
+  }
+
+  .logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+  }
+
+  main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+
+  .escrito {
+    /* background-color: red; */
+    width: 90%;
+    position: absolute;
+    left: 10%;
+  }
+
+  .texto-resuelto {
+    /* background-color: blue; */
+    width: 88%;
+    position: absolute;
+    top: 62%;
+    left: 10%;
+  }
+
+  .text-area {
+    width: 95%;
+    border: none;
+    color: #0a3871;
+    margin-top: 5%;
+    margin-left: 1%;
+    text-transform: lowercase;
+  }
+  ::placeholder {
+    color: #0a3871;
+  }
+  .text-area:focus {
+    outline: none;
+  }
+
+  .mensaje {
+    width: 93%;
+    background: white;
+    background-image: url("imagenes/Muneco.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: 0%;
+  }
+  .mensaje:focus {
+    outline: none;
+  }
+
+  .botones {
+    /* background-color: orange; */
+    display: inline-block;
+    padding-left: 10%;
+    position: absolute;
+    top: 100%;
+    left: 1px;
+    width: 80%;
+  }
+
+  .btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 85%;
+  }
+
+  .btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    margin-left: 0;
+    height: 67px;
+    width: 85%;
+  }
+
+  .btn-copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 5%;
+    margin-top: 402px;
+    position: absolute;
+    top: 1px;
+    width: 88%;
+  }
+
+  .informacion {
+    color: #495057;
+    font-size: 18px;
+    position: absolute;
+    top: 91%;
+    left: 5%;
+  }
+}
